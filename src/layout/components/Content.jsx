@@ -9,22 +9,22 @@ const caracteristicas = [
   {
     titulo: 'Gestión desde móvil',
     descripcion: 'Administra tus productos desde cualquier dispositivo móvil en tiempo real.',
-    img: '/Taller3React.github.io/imgs/mobile.png',
+    img: '/imgs/mobile.png',
   },
   {
     titulo: 'Control de inventario',
     descripcion: 'Monitorea y gestiona tu stock con alertas automáticas de disponibilidad.',
-    img: '/Taller3React.github.io/imgs/ControlInvetario.png',
+    img: '/imgs/ControlInvetario.png',
   },
   {
     titulo: 'Análisis y reportes',
     descripcion: 'Visualiza estadísticas y métricas de tus ventas con gráficos detallados.',
-    img: '/Taller3React.github.io/imgs/AnalisisReport.png',
+    img: '/imgs/AnalisisReport.png',
   },
   {
     titulo: 'Catálogo de productos',
     descripcion: 'Organiza y exhibe tus productos de forma clara con búsqueda y categorización.',
-    img: '/Taller3React.github.io/imgs/catalogoProducts.png',
+    img: '/imgs/catalogoProducts.png',
   },
 ];
 
@@ -35,7 +35,7 @@ export const Content = () => {
       <Box sx={{ position: 'relative', width: '100%', height: { xs: '250px', md: '400px' } }}>
         <Box
           component="img"
-          src='/Taller3React.github.io/imgs/Banner.png'
+          src='/imgs/Banner.png'
           sx={{
             width: '100%',
             height: '100%',

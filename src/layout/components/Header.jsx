@@ -94,7 +94,7 @@ export const Header = ({ favoritos, carrito }) => {
             <AppBar position="static" sx={{ background: '#212121' }}>
                 <Container maxWidth="xl">
                     <Toolbar disableGutters>
-                        <Box component="img" src='/Taller3React.github.io/imgs/Logo.png' sx={{ display: { xs: 'none', md: 'flex' }, mr: 1, height: 40 }} />
+                        <Box component="img" src='/imgs/Logo.png' sx={{ display: { xs: 'none', md: 'flex' }, mr: 1, height: 40 }} />
                         <Typography
                             variant="h6"
                             noWrap
