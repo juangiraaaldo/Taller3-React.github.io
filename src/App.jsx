@@ -4,7 +4,7 @@ import { Header } from './layout/components/Header';
 import { Content } from './layout/components/Content';
 import { Footer } from './layout/components/Footer';
 import { Articles } from './articles/components/Articles';
-import { Oferts } from './Ofert/components/Oferts';
+import { Oferts } from './ofert/components/Oferts';
 import { Favorites } from './favorites/components/Favorites';
 import { Compras } from './compra/components/Compras';
 import { MiCuenta } from './cuenta/components/MiCuenta';
