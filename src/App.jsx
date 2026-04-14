@@ -12,7 +12,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 
 function App() {
 
-  
+
   const [favoritos, setFavoritos] = useState(0);
   const [carrito, setCarrito] = useState(0);
 
