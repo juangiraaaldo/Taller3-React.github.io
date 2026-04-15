@@ -11,26 +11,26 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 
 const juegos = [
-    { id: 1, titulo: 'Call of Duty MW3', precio: 59.99, descuento: 20, categoria: 'FPS', img: "/imgs/callDuty.png" },
-    { id: 2, titulo: 'FIFA 25', precio: 49.99, descuento: 15, categoria: 'Deportes', img: "/imgs/fifa.png" },
-    { id: 3, titulo: 'Elden Ring', precio: 39.99, descuento: 30, categoria: 'RPG', img: "/imgs/EldenRing.png" },
-    { id: 4, titulo: 'Minecraft', precio: 29.99, descuento: 0, categoria: 'Sandbox', img: "/imgs/minecraft.png" },
-    { id: 5, titulo: 'GTA V', precio: 19.99, descuento: 50, categoria: 'Acción', img: "/imgs/GtaV.png" },
-    { id: 6, titulo: 'Red Dead Redemption 2', precio: 39.99, descuento: 25, categoria: 'Aventura', img: "/imgs/RedDead2.png" },
-    { id: 7, titulo: 'Cyberpunk 2077', precio: 44.99, descuento: 10, categoria: 'RPG', img: "/imgs/Cyberpunk.png" },
-    { id: 8, titulo: 'The Witcher 3', precio: 29.99, descuento: 40, categoria: 'RPG', img: "/imgs/Witcher3.png" },
-    { id: 9, titulo: 'Forza Horizon 5', precio: 49.99, descuento: 20, categoria: 'Carreras', img: "/imgs/Forza5.png" },
-    { id: 10, titulo: 'Halo Infinite', precio: 34.99, descuento: 15, categoria: 'FPS', img: "/imgs/HaloInfinity.png" },
-    { id: 11, titulo: 'Assassins Creed Valhalla', precio: 39.99, descuento: 35, categoria: 'Aventura', img: "/imgs/AssasinsVallhalla.png" },
-    { id: 12, titulo: 'Spider-Man Miles Morales', precio: 49.99, descuento: 20, categoria: 'Acción', img: "/imgs/Spiderman.png" },
-    { id: 13, titulo: 'God of War Ragnarök', precio: 59.99, descuento: 10, categoria: 'Acción', img: "/imgs/GodWarRok.png" },
-    { id: 14, titulo: 'Hollow Knight', precio: 14.99, descuento: 0, categoria: 'Indie', img: "/imgs/HollowKnight.png" },
-    { id: 15, titulo: 'Among Us', precio: 4.99, descuento: 0, categoria: 'Multijugador', img: "/imgs/AmongUs.png" },
-    { id: 16, titulo: 'Stardew Valley', precio: 13.99, descuento: 0, categoria: 'Simulación', img: "/imgs/StardewValley.png" },
-    { id: 17, titulo: 'Doom Eternal', precio: 39.99, descuento: 50, categoria: 'FPS', img: "/imgs/DoomEternal.png" },
-    { id: 18, titulo: 'Sekiro', precio: 49.99, descuento: 20, categoria: 'Acción', img: "/imgs/Sekiro.png" },
-    { id: 19, titulo: 'Resident Evil 4', precio: 44.99, descuento: 15, categoria: 'Terror', img: "/imgs/ResidentEvil4.png" },
-    { id: 20, titulo: 'Death Stranding', precio: 29.99, descuento: 40, categoria: 'Aventura', img: "/imgs/DeathStranding.png" }
+    { id: 1, titulo: 'Call of Duty MW3', precio: 59.99, descuento: 20, categoria: 'FPS', img: "Taller3-React.github.io/imgs/callDuty.png" },
+    { id: 2, titulo: 'FIFA 25', precio: 49.99, descuento: 15, categoria: 'Deportes', img: "Taller3-React.github.io/imgs/fifa.png" },
+    { id: 3, titulo: 'Elden Ring', precio: 39.99, descuento: 30, categoria: 'RPG', img: "Taller3-React.github.io/imgs/EldenRing.png" },
+    { id: 4, titulo: 'Minecraft', precio: 29.99, descuento: 0, categoria: 'Sandbox', img: "Taller3-React.github.io/imgs/minecraft.png" },
+    { id: 5, titulo: 'GTA V', precio: 19.99, descuento: 50, categoria: 'Acción', img: "Taller3-React.github.io/imgs/GtaV.png" },
+    { id: 6, titulo: 'Red Dead Redemption 2', precio: 39.99, descuento: 25, categoria: 'Aventura', img: "Taller3-React.github.io/imgs/RedDead2.png" },
+    { id: 7, titulo: 'Cyberpunk 2077', precio: 44.99, descuento: 10, categoria: 'RPG', img: "Taller3-React.github.io/imgs/Cyberpunk.png" },
+    { id: 8, titulo: 'The Witcher 3', precio: 29.99, descuento: 40, categoria: 'RPG', img: "Taller3-React.github.io/imgs/Witcher3.png" },
+    { id: 9, titulo: 'Forza Horizon 5', precio: 49.99, descuento: 20, categoria: 'Carreras', img: "Taller3-React.github.io/imgs/Forza5.png" },
+    { id: 10, titulo: 'Halo Infinite', precio: 34.99, descuento: 15, categoria: 'FPS', img: "Taller3-React.github.io/imgs/HaloInfinity.png" },
+    { id: 11, titulo: 'Assassins Creed Valhalla', precio: 39.99, descuento: 35, categoria: 'Aventura', img: "Taller3-React.github.io/imgs/AssasinsVallhalla.png" },
+    { id: 12, titulo: 'Spider-Man Miles Morales', precio: 49.99, descuento: 20, categoria: 'Acción', img: "Taller3-React.github.io/imgs/Spiderman.png" },
+    { id: 13, titulo: 'God of War Ragnarök', precio: 59.99, descuento: 10, categoria: 'Acción', img: "Taller3-React.github.io/imgs/GodWarRok.png" },
+    { id: 14, titulo: 'Hollow Knight', precio: 14.99, descuento: 0, categoria: 'Indie', img: "Taller3-React.github.io/imgs/HollowKnight.png" },
+    { id: 15, titulo: 'Among Us', precio: 4.99, descuento: 0, categoria: 'Multijugador', img: "Taller3-React.github.io/imgs/AmongUs.png" },
+    { id: 16, titulo: 'Stardew Valley', precio: 13.99, descuento: 0, categoria: 'Simulación', img: "Taller3-React.github.io/imgs/StardewValley.png" },
+    { id: 17, titulo: 'Doom Eternal', precio: 39.99, descuento: 50, categoria: 'FPS', img: "Taller3-React.github.io/imgs/DoomEternal.png" },
+    { id: 18, titulo: 'Sekiro', precio: 49.99, descuento: 20, categoria: 'Acción', img: "Taller3-React.github.io/imgs/Sekiro.png" },
+    { id: 19, titulo: 'Resident Evil 4', precio: 44.99, descuento: 15, categoria: 'Terror', img: "Taller3-React.github.io/imgs/ResidentEvil4.png" },
+    { id: 20, titulo: 'Death Stranding', precio: 29.99, descuento: 40, categoria: 'Aventura', img: "Taller3-React.github.io/imgs/DeathStranding.png" }
 ];
 
 export const Articles = ({ setFavoritos, setCarrito }) => {
