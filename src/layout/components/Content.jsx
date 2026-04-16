@@ -10,22 +10,22 @@ const caracteristicas = [
   {
     titulo: 'Gestión desde móvil',
     descripcion: 'Administra tus productos desde cualquier dispositivo móvil en tiempo real.',
-    img: '/Taller3-React.github.io/imgs/mobile.png',
+    img: '/Taller3-React/imgs/mobile.png',
   },
   {
     titulo: 'Control de inventario',
     descripcion: 'Monitorea y gestiona tu stock con alertas automáticas de disponibilidad.',
-    img: '/Taller3-React.github.io/imgs/ControlInvetario.png',
+    img: '/Taller3-React/imgs/ControlInvetario.png',
   },
   {
     titulo: 'Análisis y reportes',
     descripcion: 'Visualiza estadísticas y métricas de tus ventas con gráficos detallados.',
-    img: '/Taller3-React.github.io/imgs/AnalisisReport.png',
+    img: '/Taller3-React/imgs/AnalisisReport.png',
   },
   {
     titulo: 'Catálogo de productos',
     descripcion: 'Organiza y exhibe tus productos de forma clara con búsqueda y categorización.',
-    img: '/Taller3-React.github.io/imgs/catalogoProducts.png',
+    img: '/Taller3-React/imgs/catalogoProducts.png',
   },
 ];
 
@@ -36,7 +36,7 @@ export const Content = () => {
       <Box sx={{ position: 'relative', width: '100%', height: { xs: '250px', md: '400px' } }}>
         <Box
           component="img"
-          src='/Taller3-React.github.io/imgs/Banner.png'
+          src='/Taller3-React/imgs/Banner.png'
           sx={{
             width: '100%',
             height: '100%',
@@ -146,7 +146,7 @@ export const Content = () => {
             <Button
               variant="contained"
               component="a"
-              href="https://github.com/juangiraaaldo/Taller3-React.github.io"
+              href="https://github.com/juangiraaaldo/Taller3-React"
               target="_blank"
               sx={{
                 backgroundColor: '#f5f5f5',

@@ -16,6 +16,7 @@ import { styled, alpha } from '@mui/material/styles';
 import InputBase from '@mui/material/InputBase';
 import SearchIcon from '@mui/icons-material/Search';
 import { NavLink } from 'react-router-dom';
+import Logo from '/imgs/Logo.png';
 
 const pages = [
     { label: 'INICIO', path: '/' },
@@ -94,7 +95,7 @@ export const Header = ({ favoritos, carrito }) => {
             <AppBar position="static" sx={{ background: '#212121' }}>
                 <Container maxWidth="xl">
                     <Toolbar disableGutters>
-                        <Box component="img" src='/Taller3-React.github.io/imgs/Logo.png' sx={{ display: { xs: 'none', md: 'flex' }, mr: 1, height: 40 }} />
+                        <Box component="img" src={Logo} sx={{ display: { xs: 'none', md: 'flex' }, mr: 1, height: 40 }} />
                         <Typography
                             variant="h6"
                             noWrap
