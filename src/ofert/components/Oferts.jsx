@@ -381,22 +381,37 @@ export const Oferts = () => {
     return (
         <>
             <Box sx={{ px: 4, py: 6, backgroundColor: '#d8d8d8' }}>
-                <Typography variant="h4" fontWeight={700} sx={{ mb: 1 }}>
+                <Typography
+                    variant="h4"
+                    fontWeight={700}
+                    sx={{
+                        mb: 1,
+                        textAlign: { xs: 'center', md: 'left' },
+                        fontSize: { xs: '1.5rem', md: '2.125rem' } // Ajuste de tamaño en móvil
+                    }}
+                >
                     React Hooks
                 </Typography>
-                <Typography variant="body1" color="text.secondary" sx={{ mb: 4 }}>
+                <Typography
+                    variant="body1"
+                    color="text.secondary"
+                    sx={{
+                        mb: 4,
+                        textAlign: { xs: 'center', md: 'left' }
+                    }}
+                >
                     Demostraciones interactivas de los 8 hooks principales de React.
                 </Typography>
 
                 <Grid container spacing={3}>
-                    <Grid size= {{ xs: 12, sm:6, md:3}}><CardUseState /></Grid>
-                    <Grid size= {{ xs: 12, sm:6, md:3}}><CardUseEffect /></Grid>
-                    <Grid size= {{ xs: 12, sm:6, md:3}}><CardUseContext /></Grid>
-                    <Grid size= {{ xs: 12, sm:6, md:3}}><CardUseRef /></Grid>
-                    <Grid size= {{ xs: 12, sm:6, md:3}}><CardUseReducer /></Grid>
-                    <Grid size= {{ xs: 12, sm:6, md:3}}><CardUseCallback /></Grid>
-                    <Grid size= {{ xs: 12, sm:6, md:3}}><CardUseMemo /></Grid>
-                    <Grid size= {{ xs: 12, sm:6, md:3}}><CardCustomHook /></Grid>
+                    <Grid size={{ xs: 12, sm: 6, md: 3 }}><CardUseState /></Grid>
+                    <Grid size={{ xs: 12, sm: 6, md: 3 }}><CardUseEffect /></Grid>
+                    <Grid size={{ xs: 12, sm: 6, md: 3 }}><CardUseContext /></Grid>
+                    <Grid size={{ xs: 12, sm: 6, md: 3 }}><CardUseRef /></Grid>
+                    <Grid size={{ xs: 12, sm: 6, md: 3 }}><CardUseReducer /></Grid>
+                    <Grid size={{ xs: 12, sm: 6, md: 3 }}><CardUseCallback /></Grid>
+                    <Grid size={{ xs: 12, sm: 6, md: 3 }}><CardUseMemo /></Grid>
+                    <Grid size={{ xs: 12, sm: 6, md: 3 }}><CardCustomHook /></Grid>
                 </Grid>
             </Box>
         </>

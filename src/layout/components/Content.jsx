@@ -71,10 +71,25 @@ export const Content = () => {
       </Box>
 
       <Box sx={{ px: { xs: 2, md: 4 }, py: 6 }}>
-        <Typography variant="h4" fontWeight={700} sx={{ mb: 1, textAlign: { xs: 'center', md: 'left' } }}>
+        <Typography
+          variant="h4"
+          fontWeight={700}
+          sx={{
+            mb: 1,
+            textAlign: { xs: 'center', md: 'left' },
+            fontSize: { xs: '1.5rem', md: '2.125rem' } // Ajuste de tamaño en móvil
+          }}
+        >
           Características
         </Typography>
-        <Typography variant="body1" color="text.secondary" sx={{ mb: 4, textAlign: { xs: 'center', md: 'left' } }}>
+        <Typography
+          variant="body1"
+          color="text.secondary"
+          sx={{
+            mb: 4,
+            textAlign: { xs: 'center', md: 'left' }
+          }}
+        >
           Funciones esenciales para gestionar tus productos de forma clara y rápida.
         </Typography>
 
@@ -111,65 +126,65 @@ export const Content = () => {
         </Grid>
       </Box>
 
-              {/* Repositorio */}
-        <Box sx={{ px: { xs: 2, md: 4 }, pb: 8, display: 'flex', justifyContent: 'center' }}>
-          <Box
+      {/* Repositorio */}
+      <Box sx={{ px: { xs: 2, md: 4 }, pb: 8, display: 'flex', justifyContent: 'center' }}>
+        <Box
+          sx={{
+            width: '100%',
+            maxWidth: '900px',
+            backgroundColor: 'rgba(255, 255, 255, 0.4)',
+            backdropFilter: 'blur(10px)',
+            borderRadius: '24px',
+            p: { xs: 4, md: 6 },
+            textAlign: 'center',
+            boxShadow: '0px 10px 30px rgba(0,0,0,0.05)',
+            border: '1px solid rgba(255, 255, 255, 0.3)'
+          }}
+        >
+          <Typography variant="h4" fontWeight={800} sx={{ mb: 2, color: '#212121' }}>
+            Explora el código del proyecto
+          </Typography>
+
+          <Typography
+            variant="body1"
             sx={{
-              width: '100%',
-              maxWidth: '900px',
-              backgroundColor: 'rgba(255, 255, 255, 0.4)',
-              backdropFilter: 'blur(10px)',
-              borderRadius: '24px',
-              p: { xs: 4, md: 6 },
-              textAlign: 'center',
-              boxShadow: '0px 10px 30px rgba(0,0,0,0.05)',
-              border: '1px solid rgba(255, 255, 255, 0.3)'
+              mb: 4,
+              color: 'text.secondary',
+              maxWidth: '600px',
+              mx: 'auto',
+              lineHeight: 1.6
             }}
           >
-            <Typography variant="h4" fontWeight={800} sx={{ mb: 2, color: '#212121' }}>
-              Explora el código del proyecto
-            </Typography>
-            
-            <Typography 
-              variant="body1" 
-              sx={{ 
-                mb: 4, 
-                color: 'text.secondary', 
-                maxWidth: '600px', 
-                mx: 'auto',
-                lineHeight: 1.6 
-              }}
-            >
-              Este proyecto fue desarrollado con <strong>React</strong> y <strong>Material UI</strong> como una landing page moderna para administración de productos. Puedes revisar el código completo, aprender de su estructura o usarlo como base para tus propios proyectos.
-            </Typography>
+            Este proyecto fue desarrollado con <strong>React</strong> y <strong>Material UI</strong> como una landing page moderna para administración de productos. Puedes revisar el código completo, aprender de su estructura o usarlo como base para tus propios proyectos.
+          </Typography>
 
-            <Button
-              variant="contained"
-              component="a"
-              href="https://github.com/juangiraaaldo/Taller3-React"
-              target="_blank"
-              sx={{
-                backgroundColor: '#f5f5f5',
-                color: '#212121',
-                fontWeight: 700,
-                px: 4,
-                py: 1.5,
-                borderRadius: '12px',
-                textTransform: 'none',
-                fontSize: '1rem',
-                boxShadow: '0px 4px 12px rgba(0,0,0,0.1)',
-                '&:hover': {
-                  backgroundColor: '#ffffff',
-                  transform: 'scale(1.02)',
-                  boxShadow: '0px 6px 15px rgba(0,0,0,0.15)',
-                },
-                transition: 'all 0.2s ease'
-              }}
-            >
-              Ver repositorio en GitHub
-            </Button>
-          </Box>
+          <Button
+            variant="contained"
+            component="a"
+            href="https://github.com/juangiraaaldo/Taller3-React"
+            target="_blank"
+            sx={{
+              backgroundColor: '#f5f5f5',
+              color: '#212121',
+              fontWeight: 700,
+              px: 4,
+              py: 1.5,
+              borderRadius: '12px',
+              textTransform: 'none',
+              fontSize: '1rem',
+              boxShadow: '0px 4px 12px rgba(0,0,0,0.1)',
+              '&:hover': {
+                backgroundColor: '#ffffff',
+                transform: 'scale(1.02)',
+                boxShadow: '0px 6px 15px rgba(0,0,0,0.15)',
+              },
+              transition: 'all 0.2s ease'
+            }}
+          >
+            Ver repositorio en GitHub
+          </Button>
         </Box>
+      </Box>
     </Box>
   );
 };
